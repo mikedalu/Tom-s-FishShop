@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* padding-top: 3rem;
+	padding-bottom: 3rem; */
+	background: #ddf2eb;
+	background-repeat: repeat;
+	font-family: Lato;
+	font-weight: 600;
+	height: 100vh;
+	position: relative;
+	bottom: 0;
+}
+
+.float {
+	position: fixed;
+	bottom: 2px;
+	right: 2px;
+	color: #bc9cb0;
+	font-size: 3rem;
+	background-color: transparent;
+}
+.float:hover {
+	color: green;
+}
+
+p {
+	line-height: 150%;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 500;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-weight: 800;
+	font-size: 45px;
+}
+.bg-primary {
+	background-color: #606d5d !important;
+}
+
+.btn-primary {
+	background-color: #afc9aa !important;
+	outline: none;
+}
+#logo {
+	color: white;
+	font-size: 2rem;
+}
+
+.jumbotron-other {
+	background: url("../images/carousel1.jpg") no-repeat fixed;
+}
+
+.jumbotron {
+	box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+	height: 40vh;
+	background-size: cover;
+}
+.display-1 {
+	text-align: center;
+}
+.carousel {
+	margin-bottom: 4rem;
+}
+
+.carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+}
+
+.carousel-item {
+	height: 40rem;
+	max-width: 80vw;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.welcome-carousel-image1 {
+	box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+	background-image: url("../images/carousel1.jpg");
+}
+
+.welcome-carousel-image2 {
+	box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+	background-image: url("../images/carousel2.jpg");
+}
+
+.welcome-carousel-image3 {
+	box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+	background-image: url("../images/carousel3.jpg");
+}
+
+footer {
+	bottom: 0;
+	background-color: #606d5d;
+	width: 100vw;
+	height: 5rem;
+}
+
+footer .footer {
+	display: block;
+}
+footer .footer p {
+	text-align: center;
+	font-size: 1.4rem;
+	color: white;
+}
+footer .footer .social-icons {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+footer .footer .social-icons i {
+	font-size: 1.5rem;
+	color: white;
+	padding-left: 2rem;
+	word-spacing: 30px;
+}
+footer .footer .social-icons i:hover {
+	color: #ddf2eb;
+}
